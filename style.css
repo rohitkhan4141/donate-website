@@ -19,6 +19,9 @@ h2 {
   font-size: 35px;
   color: #121212;
 }
+h3 {
+  padding: 20px 0;
+}
 .padding-big {
   padding: 25px 0;
 }
@@ -105,4 +108,34 @@ input[type="text"] {
 }
 input:focus {
   outline: none;
+}
+
+/* donate-plan-section */
+
+#donate-plan-section {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.donate-plans {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.donate-plan {
+  width: 360px;
+  text-align: left;
+  border-radius: 5px;
+  padding: 40px 20px;
+}
+
+.color-1 {
+  background: rgba(79, 157, 166, 0.1);
+}
+.color-2 {
+  background: rgba(255, 89, 89, 0.1);
+}
+.color-3 {
+  background: rgba(255, 129, 129, 0.226);
 }
