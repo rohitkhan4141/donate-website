@@ -1,5 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:ital,wght@0,300;0,400;0,700;1,500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* reuseable tags and classes */
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.padding-big {
+  padding: 25px 0;
+}
+
+.btn-primary {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  padding: 16px 12px;
+  background: #ff5959;
+  border-radius: 5px;
+}
+
+/* hero-section */
+
+#hero-section {
+  min-height: 90vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.144)),
+    url(images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-section-content {
+  width: 70%;
+  height: 100% !important;
+  margin: 0 auto;
+  padding: 150px 0 0 0;
+  text-align: center;
+  color: white;
+}
+
+.hero-section-content p {
+  margin-bottom: 30px;
 }
