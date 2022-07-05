@@ -43,7 +43,7 @@ h3 {
 
 #hero-section {
   min-height: 90vh;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.144)),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.452)),
     url(images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,6 +172,41 @@ input:focus {
 }
 .m-l {
   margin-left: 50px;
+}
+
+/* statistics */
+#statistics {
+  background-color: #ff5252;
+  height: 350px;
+  display: flex;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 85%,
+    57% 85%,
+    50% 96%,
+    43% 85%,
+    0 85%
+  );
+}
+.s-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.s-box h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+.s-box h5 {
+  text-align: center;
+  color: #d9d9d9;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /* newsletter */
